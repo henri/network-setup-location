@@ -121,7 +121,7 @@ else
     #$NETWORKSETUP -setairportpower on
     #sleep 60
     
-    # Connect to the Wireless Network - disabled - for students they connect manually
+    # Connect to the Wireless Network - disabled -
     # $NETWORKSETUP -setairportnetwork $AIRPORTNETWORK $AIRPORTNETWORKPW
     
     # Disable IPv6 
