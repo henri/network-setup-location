@@ -130,7 +130,7 @@ else
 
     # Disable AppleTalk
     if [ $darwin_version -le 9 ] ; then
-	    If we are on 10.5 or earlier version of the operating system.
+	    # If we are on 10.5 or earlier version of the operating system.
 	    $NETWORKSETUP -setappletalk "$ETHERNETSERVICENAME" off
 	    $NETWORKSETUP -setappletalk "$AIRPORTSERVICENAME" off
     fi
